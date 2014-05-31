@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.container {
+    width: 982px;
+    margin: 0 auto;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#header #barraSuperior {
+    height: 34px;
+    border-bottom: 1px solid #e4e4e4;
+    line-height: 34px;
+}
+
+#header #barraSuperior h3 {
+    font-size: 12px;
+    color: #878787;
+    font-weight: normal;
+    display: inline;
+}
+
+#header #barraSuperior span {
+    color: #287fb8;
+    font-weight: bold;
+}
+
+#header #barraSuperior ul {
+    float: right;
+}
+
+#header #barraSuperior ul li {
+    display: inline;
+}
+
+#header #barraSuperior ul li a {
+    font-size: 12px;
+    color: #287fb8;
+}
+
+#header #barraSuperior img {
+    float: left;
+    margin-top: 11px;
+    margin-right: 3px;
+}
