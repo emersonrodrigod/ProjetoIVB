@@ -6,8 +6,12 @@
     font-family: arial, helvetica, sans-serif;
 }
 
+.clearFix {
+    clear: both;
+}
+
 .container {
-    width: 982px;
+    width: 980px;
     margin: 0 auto;
 }
 
@@ -119,4 +123,51 @@ body {
     height: 350px;
     border-bottom: 1px solid #e4e4e4;
     background: #f7f7f7;
+}
+
+/****** NOTICIAS ***********************/
+#noticias {margin-top: 30px;}
+#noticias .painel {width: 295px;float: left;border-right: 2px solid #e4e4e4;}
+#noticias .esquerda {padding-right: 20px;}
+#noticias .centro {padding-right: 20px;padding-left: 20px;}
+#noticias .ultimo {border-right: none;padding-left: 20px;}
+#noticias .painel h2 {font-size: 16px;margin-bottom: 10px;color: #777;}
+#noticias .painel p {font-size: 14px;color: #777;}
+#noticias img {float: left;}
+#noticias .painel .conteudoPainel {margin-left: 50px;}
+
+/****** ALUNOS ************************/
+#alunos {
+    background: #f7f7f7;
+    height: 115px;
+    margin-top: 30px;
+}
+
+#alunos .painelAlunos {
+    background: #fff;
+    width: 286px;
+    height: 77px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#alunos .painelAlunos {
+    padding: 23px 10px 10px 10px;
+}
+
+#alunos .ultimo {
+    float: right;
+}
+
+#alunos .painelAlunos h3 {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+#alunos .painelAlunos p {
+    font-size: 14px;
+    color: #666;
 }
