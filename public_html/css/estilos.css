@@ -139,8 +139,9 @@ body {
 /****** ALUNOS ************************/
 #alunos {
     background: #f7f7f7;
-    height: 115px;
+    height: 130px;
     margin-top: 30px;
+    margin-bottom: 15px;
 }
 
 #alunos .painelAlunos {
@@ -154,7 +155,7 @@ body {
 }
 
 #alunos .painelAlunos {
-    padding: 23px 10px 10px 10px;
+    padding: 10px 10px 3px 10px;
 }
 
 #alunos .ultimo {
@@ -170,4 +171,103 @@ body {
 #alunos .painelAlunos p {
     font-size: 14px;
     color: #666;
+}
+
+/****** CURSOS ****************/
+#cursos h3 {
+    margin: 0 auto;
+    display: table;
+    text-transform: uppercase;
+    border: 1px solid #EEE;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 15px;
+    font-size: 14px;
+    color: #6c6c76;
+    position: relative;
+    background: #fff;
+    margin-bottom: 30px;
+}
+
+#cursos h3:after {
+    height: 1px;
+    width: 800px;
+    background: none repeat scroll 0 0 #EEE;
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -400px;
+    z-index: -1;
+}
+
+#cursos .categorias a {
+    width: 237px;
+    float: left;
+    height: 60px;
+    background: #ebf3f8;
+    margin-right: 10px;
+    transition: ease .45s;
+    -webkit-transition: ease .45s;
+    -moz-transition: ease .45s;
+    -o-transition: ease .45s;
+    margin-bottom: 15px;
+}
+
+#cursos .categorias .ultimo {
+    margin: 0;
+}
+
+#cursos .categorias .icone {
+    height: 100%;
+    width: 60px;
+    display: block;
+    background: #3887bd;
+    float: left;
+}
+
+#cursos .categorias .texto .titulo1 {
+    font-size: 13px;
+    color: #EEE;
+    display: table;
+    margin: 12px auto 3px auto;
+    color: #777;
+    transition: ease .25s;
+    -webkit-transition: ease .25s;
+    -moz-transition: ease .25s;
+    -o-transition: ease .25s;
+}
+
+#cursos .categorias .texto .titulo2 {
+    font-weight: bold;
+    display: table;
+    margin: 0 auto;
+    color: #464652;
+    transition: ease .25s;
+    -webkit-transition: ease .25s;
+    -moz-transition: ease .25s;
+    -o-transition: ease .25s;
+}
+
+#cursos .categorias a:hover .titulo1 {
+    color: #fff;
+}
+
+#cursos .categorias a:hover .titulo2 {
+    color: #fff;
+}
+
+#cursos .categorias a:hover {
+    background: #3887bd;
+}
+
+#cursos .categorias a:hover .icone {
+    border-right: 3px solid #fff;
+}
+
+
+/********************FOOTER**************/
+footer {
+    height: 500px;
 }
