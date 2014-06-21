@@ -272,4 +272,82 @@ body {
 /********************FOOTER**************/
 footer {
     height: 500px;
+    border-top: 2px solid #eee;
+    padding-top: 10px;
+}
+
+footer #footerSuperior {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer #footerSuperior ul li {
+    display: inline;
+    margin-right: 5px;
+    border-right: 1px solid #ccc;
+    padding-right: 5px;
+}
+
+footer #footerSuperior ul li:last-child {
+    border: none;
+}
+
+#footer #footerSuperior ul li a {
+    font-size: 13px;
+    color: #287fb8;
+    text-decoration: underline;
+}
+
+#footer #footerEsquerda {
+    width: 326px;
+    float: left;
+}
+
+#footer #footerEsquerda ul li {
+    display: inline;
+}
+
+#footer #footerCentro {
+    float: left;
+    width: 326px;
+}
+
+#footer #footerCentro img {
+    float: left;
+    margin-right: 10px;
+}
+
+#footer #footerCentro dl dd {
+    font-size: 16px;
+    color: #ccc;
+}
+
+#footer #footerCentro dl dt {
+    font-size: 29px;
+    color: #3887bd;
+    font-weight: bold;
+}
+
+#footer #footerDireita {
+    float: right;
+}
+
+#footer #footerDireita .email {
+    background: url(../img/email.png);
+    width: 151px;
+    height: 56px;
+    content: " ";
+    cursor: pointer;
+    display: block;
+    float: left;
+}
+
+#footer #footerDireita .chat {
+    background: url(../img/chat.png);
+    width: 151px;
+    height: 56px;
+    content: " ";
+    cursor: pointer;
+    display: block;
+    float: right;
 }
